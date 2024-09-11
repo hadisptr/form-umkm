@@ -273,17 +273,21 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.contact_name_text {
-  width: 160px;
-  color: rgba(0,0,0,1);
+.contact_name_input {
+  width: 750px;
+  height: 75px;
   position: absolute;
-  top: 32px;
-  left: 32px;
-  font-family: Roboto;
-  font-weight: Regular;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
-  opacity: 0.5;
-  text-align: left;
+}
+
+.contact_name_input:focus {
+  border-color: rgba(220,120,11,1);
+  outline: none;
 }
 .email_contact {
   width: 750px;
@@ -325,17 +329,20 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.contact_email_text {
-  width: 160px;
-  color: rgba(0,0,0,1);
+.contact_email_input {
+  width: 750px;
+  height: 75px;
   position: absolute;
-  top: 32px;
-  left: 32px;
-  font-family: Roboto;
-  font-weight: Regular;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
-  opacity: 0.5;
-  text-align: left;
+}
+.contact_email_input:focus {
+  border-color: rgba(220,120,11,1);
+  outline: none;
 }
 .phone_contact {
   width: 750px;
@@ -377,17 +384,20 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.contact_phone_text {
-  width: 160px;
-  color: rgba(0,0,0,1);
+.contact_phone_input {
+  width: 750px;
+  height: 75px;
   position: absolute;
-  top: 32px;
-  left: 32px;
-  font-family: Roboto;
-  font-weight: Regular;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
-  opacity: 0.5;
-  text-align: left;
+}
+.contact_phone_input:focus {
+  border-color: rgba(220,120,11,1);
+  outline: none;
 }
 .reason_contact {
   width: 750px;
@@ -429,17 +439,21 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.contact_reason_text {
-  width: 500px;
-  color: rgba(0,0,0,1);
+
+.contact_reason_input {
+  width: 750px;
+  height: 125px;
   position: absolute;
-  top: 50px;
-  left: 32px;
-  font-family: Roboto;
-  font-weight: Regular;
+  top: 0px;
+  left: 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   font-size: 16px;
-  opacity: 0.5;
-  text-align: left;
+}
+.contact_reason_input:focus {
+  border-color: rgba(220,120,11,1);
+  outline: none;
 }
 .v0_78 {
   width: 156px;
@@ -453,7 +467,9 @@ body {
   top: 650px;
   left: 460px;
   overflow: hidden;
+  cursor: pointer; /* Menunjukkan elemen ini bisa diklik */
 }
+
 .v0_79 {
   width: 156px;
   height: 75px;
@@ -468,6 +484,7 @@ body {
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
+
 .v0_80 {
   width: 42px;
   color: rgba(255,255,255,1);
